@@ -19,7 +19,7 @@ public class infintrySword extends Weapon {
     }
 
     public ArrayList getStats(){
-        
+
         return stats;
     }
 
@@ -35,7 +35,13 @@ public class infintrySword extends Weapon {
     public int attack(){
         return hp;
     }
+
     public void banki(){
         super.sethp(super.hitPoints+1000);
     }
+
+    public boolean blocked(){
+        return false ;
+    }
+  
 }

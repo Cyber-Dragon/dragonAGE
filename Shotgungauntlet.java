@@ -17,8 +17,9 @@ public class Shotgungauntlet extends Weapon{
         stats = new ArrayList();
         name = name_;
     }
+
     public ArrayList getStats(){
-        
+
         return stats;
     }
 
@@ -33,7 +34,12 @@ public class Shotgungauntlet extends Weapon{
     public int attack(){
         return hp;
     }
+
     public void banki(){
         super.sethp(super.hitPoints+1000);
+    }
+
+    public boolean blocked(){
+        return false ;
     }
 }

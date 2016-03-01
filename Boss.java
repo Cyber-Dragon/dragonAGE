@@ -1,33 +1,30 @@
-
+import java.util.ArrayList;
 /**
  * Write a description of class Boss here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Boss extends Player
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Boss
-     */
-    public Boss()
-    {
-        // initialise instance variables
-        x = 0;
+public class Boss extends Player{
+    ArrayList <Player> listOfPlayers;
+    public Boss(){
+        listOfPlayers = new ArrayList<Player>();
+        Player s1 = new Player("Luis"," Higuera","qwe","wqe","weq",00001);
+        listOfPlayers.add(s1);
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public Boss (int numOfStudent){
+        listOfPlayers = new ArrayList<Player>();
+        for(int i = 1; i <= numOfStudent; i++){
+            listOfPlayers.add(new Player("BURITO","TACO","","","",111101 + i));
+        }
+    }
+
+    public void printStudentsList(){
+        for (Player s : listOfPlayers){
+           System.out.println("Name: "+ s.firstName+ s.lastName );
+            System.out.println("iD #" + s.iD);
+            
+        }
     }
 }

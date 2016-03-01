@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=name_\ Rare\ abc\ hitp
-comment0.target=keyBlade(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment0.params=darkDisruptor\ Rare\ ab\ hitp
+comment0.target=gunSlinger(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
 comment1.params=
 comment1.target=java.util.ArrayList\ getStats()
 comment2.params=
@@ -13,4 +13,6 @@ comment5.params=
 comment5.target=void\ banki()
 comment6.params=
 comment6.target=boolean\ blocked()
-numComments=7
+comment7.params=x
+comment7.target=boolean\ storeItem(Item)
+numComments=8

@@ -5,7 +5,7 @@ import java.util.ArrayList;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public abstract class Weapon extends Item implements WeaponInterface, Bankai{
+public abstract class Weapon extends Item  implements WeaponInterface, DefenseCommands ,Bankai{
 
     private String rarity;
     protected int hitPoints;

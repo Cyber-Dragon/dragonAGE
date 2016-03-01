@@ -38,5 +38,9 @@ public class Deathsythe extends Weapon{
     public void banki(){
         super.sethp(super.hitPoints+1000);
     }
+
+    public boolean blocked(){
+        return true ;
+    }
 }
 
