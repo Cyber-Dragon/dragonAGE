@@ -8,6 +8,8 @@ import java.util.ArrayList;
 public abstract class Weapon extends Item  implements WeaponInterface, DefenseCommands ,Bankai{
 
     private String rarity;
+     private String name;
+    private ArrayList stats;
     protected int hitPoints;
     private String ability;
 
@@ -21,31 +23,19 @@ public abstract class Weapon extends Item  implements WeaponInterface, DefenseCo
     }
 
     public void hit(){
-        System.out.println("you ");
-    }
-
-    public void moveBackward(){
-        System.out.println("you move backward");
+        System.out.println("you hit that guy ");
     }
 
     public void sethp(int x){
         hitPoints = x;
     }
 
-    public void turnLeft(){
-        System.out.println("you turn left ");
+    public boolean parry(){
+        return true ;
     }
 
-    public void turnRight(){
-        System.out.println("you turn right ");
-    }
-
-    public void brake(){
-        System.out.println(" Car slows to a stop ");
-    }
-
-    public void outoSpeed(){
-        System.out.println(" Car outoSpeeds up ");
+    public boolean blocked(){
+        return false ;
     }
 
 }

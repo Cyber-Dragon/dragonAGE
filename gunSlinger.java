@@ -12,10 +12,10 @@ public class gunSlinger extends Weapon{
     private int hp;
     private String rare;
     private String ab;
-    public gunSlinger(String darkDisruptor, String Rare, String ab, int hitp){
-        super(Rare, hitp, ab);
+    public gunSlinger(String name_, String Rare, String ab, int hp){
+        super(Rare, hp, ab);
         stats = new ArrayList();
-        name = "darkDisruptor";
+        name = name_;
     }
 
     public ArrayList getStats(){
@@ -27,20 +27,12 @@ public class gunSlinger extends Weapon{
         return name;
     }
 
-    public boolean parry(){
-        return true ;
-    }
-
     public int attack(){
         return hp;
     }
 
     public void banki(){
         super.sethp(super.hitPoints+1000);
-    }
-
-    public boolean blocked(){
-        return false ;
     }
 
     boolean storeItem(Item x){

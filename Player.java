@@ -11,24 +11,24 @@ public class Player{
     public String ability;
     public String wepon;
     public String armor;
-    public int iD; 
+    public int lV; 
 
     public Player(){
-        this("Higuera","Luis","RAGE + 100000 Atck Power","Carries DEATHSYTHE with blood drain ability","Carries DraGon Slayer Armor that cancells your abilitys",0);
+        this("Higuera","Luis","RAGE + 100000 Atck Power","Carries DEATHSYTHE with blood drain ability","Carries DraGon Slayer Armor that cancells your abilitys",90000);
 
     }
 
-    public Player(String firstName_, String lastName_,String ability_,String wepon_,String armor_, int iD_){
+    public Player(String firstName_, String lastName_,String ability_,String wepon_,String armor_, int lV_){
         firstName = firstName_;
         lastName = lastName_;
         ability = ability_;
         wepon = wepon_;
         armor = armor_;
-        iD = iD_;
+        lV = lV_;
     }
 
-    public int getiD(){
-        return iD;
+    public int getlV(){
+        return lV;
     }
 
     public String firstName_(){

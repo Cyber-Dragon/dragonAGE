@@ -15,5 +15,7 @@ public abstract class Armor extends Item  implements DefenseCommands , BackpackI
         hitPoints = hp;
         ability = ab;
     }
-
+     public boolean blocked(){
+        return true ;
+    }
 }

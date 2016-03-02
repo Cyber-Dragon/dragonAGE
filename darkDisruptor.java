@@ -7,12 +7,12 @@ import java.lang.Math;
  * @version (a version number or a date)
  */
 public class darkDisruptor extends Weapon{
-    private String name;
+    private String name = "darkDisruptor" ;
     private ArrayList stats;
     private int hp;
     private String rare;
     private String ab;
-    public darkDisruptor(String darkDisruptor, String Rare, String ab, int hitp){
+    public darkDisruptor(String name_, String Rare, String ab, int hitp){
         super(Rare, hitp, ab);
         stats = new ArrayList();
         name = "darkDisruptor";
