@@ -1,21 +1,21 @@
 import java.util.ArrayList;
 import java.lang.Math;
 /**
- * Write a description of class gunSlinger here.
+ * Write a description of class solarGun here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class gunSlinger extends Weapon{
+public class solarGun extends Weapon{
     private String name;
     private ArrayList stats;
     private int hp;
     private String rare;
-    private String ab;
-    public gunSlinger(String name, String Rare, String ab, int hitp){
-        super(Rare, hitp, ab);
+    private String ab; //define hp and other stuff hear
+    public solarGun(String name_, String Rare, String abc, int hitp){
+        super(Rare, hitp, abc);
         stats = new ArrayList();
-        name = name;
+        name = name_;
     }
 
     public ArrayList getStats(){
@@ -40,10 +40,6 @@ public class gunSlinger extends Weapon{
     }
 
     public boolean blocked(){
-        return false ;
-    }
-
-    boolean storeItem(Item x){
         return false ;
     }
 }

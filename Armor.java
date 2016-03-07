@@ -1,4 +1,4 @@
-
+import java.util.ArrayList;
 /**
  * Write a description of class Armor here.
  * 
@@ -15,5 +15,8 @@ public abstract class Armor extends Item  implements DefenseCommands , BackpackI
         hitPoints = hp;
         ability = ab;
     }
-
+   
+    public boolean parry(){
+        return true ;
+    }
 }
