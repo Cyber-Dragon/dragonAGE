@@ -11,9 +11,8 @@ public class Deathsythe extends Weapon{
     private ArrayList stats;
     private int hp;
     private String rare;
-    private String ab; //define hp and other stuff hear
-    public Deathsythe(String name_, String Rare, String abc, int hitp){
-        super(Rare, hitp, abc);
+    public Deathsythe(String name_, String Rare, int hitp){
+        super(Rare, hitp);
         stats = new ArrayList();
         name = name_;
     }
@@ -41,6 +40,22 @@ public class Deathsythe extends Weapon{
 
     public boolean blocked(){
         return true ;
+    }
+    
+   public  boolean zimZamBom(){
+        return true;
+    }
+
+    public boolean rage(){
+        return false;
+     }
+
+    public boolean soulSteal(){
+        return false;
+     }
+
+    public boolean bloodDrain(){
+        return false;
     }
 }
 

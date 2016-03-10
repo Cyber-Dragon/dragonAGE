@@ -11,9 +11,8 @@ public class gunSlinger extends Weapon{
     private ArrayList stats;
     private int hp;
     private String rare;
-    private String ab;
-    public gunSlinger(String name_, String Rare, String ab, int hp){
-        super(Rare, hp, ab);
+    public gunSlinger(String name_, String Rare, int hp){
+        super(Rare, hp);
         stats = new ArrayList();
         name = name_;
     }
@@ -37,5 +36,21 @@ public class gunSlinger extends Weapon{
 
     boolean storeItem(Item x){
         return false ;
+    }
+    
+   public  boolean zimZamBom(){
+        return false;
+    }
+
+    public boolean rage(){
+        return false;
+     }
+
+    public boolean soulSteal(){
+        return false;
+     }
+
+    public boolean bloodDrain(){
+        return true;
     }
 }

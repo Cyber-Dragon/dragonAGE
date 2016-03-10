@@ -11,9 +11,8 @@ public class darkDisruptor extends Weapon{
     private ArrayList stats;
     private int hp;
     private String rare;
-    private String ab;
-    public darkDisruptor(String name_, String Rare, String ab, int hitp){
-        super(Rare, hitp, ab);
+    public darkDisruptor(String name_, String Rare, int hitp){
+        super(Rare, hitp);
         stats = new ArrayList();
         name = "darkDisruptor";
     }
@@ -41,5 +40,21 @@ public class darkDisruptor extends Weapon{
 
     public boolean blocked(){
         return false ;
+    }
+
+    public  boolean zimZamBom(){
+        return false;
+     }
+
+    public boolean rage(){
+        return false;
+    }
+
+    public boolean soulSteal(){
+        return false;
+    }
+
+    public boolean bloodDrain(){
+        return false;
     }
 }

@@ -11,9 +11,8 @@ public class soulSword extends Weapon{
     private ArrayList stats;
     private int hp;
     private String rare;
-    private String ab; //define hp and other stuff hear
-    public soulSword(String name_, String Rare, String abc, int hitp){
-        super(Rare, hitp, abc);
+    public soulSword(String name_, String Rare, int hitp){
+        super(Rare, hitp);
         stats = new ArrayList();
         name = name_;
     }
@@ -41,5 +40,21 @@ public class soulSword extends Weapon{
 
     public boolean blocked(){
         return false ;
+    }
+    
+   public  boolean zimZamBom(){
+        return false;
+    }
+
+    public boolean rage(){
+        return false;
+     }
+
+    public boolean soulSteal(){
+        return false;
+     }
+
+    public boolean bloodDrain(){
+        return false;
     }
 }

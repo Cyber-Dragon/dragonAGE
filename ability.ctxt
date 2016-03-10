@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ bloodDrain()
+comment0.text=\r\n\ enemy\ is\ cut\ deeply\ and\ bleeds\ out\ faster\ with\ every\ hit\ \ \r\n\ @returns\ true\ if\ ability\ is\ active\ \r\n
+comment1.params=
+comment1.target=boolean\ soulSteal()
+comment1.text=\r\n\ steals\ life\ frome\ anemy\ and\ give\ it\ to\ you\r\n\ @returns\ true\ if\ ability\ is\ active\ \r\n
+comment2.params=
+comment2.target=boolean\ rage()
+comment2.text=\r\n\ gains\ attck\ everytime\ their\ helth\ gets\ low\r\n\ retuens\ true\ if\ ability\ is\ avtive\ \r\n
+comment3.params=
+comment3.target=boolean\ zimZamBom()
+comment3.text=\r\n\ gains\ every\ ability\ \r\n\ retuens\ true\ if\ ability\ is\ avtive\ \r\n
+numComments=4

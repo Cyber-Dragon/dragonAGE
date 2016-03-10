@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=rare\ hp\ ab
-comment0.target=Weapon(java.lang.String,\ int,\ java.lang.String)
+comment0.params=rare\ hp
+comment0.target=Weapon(java.lang.String,\ int)
 comment1.params=
 comment1.target=void\ hit()
 comment2.params=x

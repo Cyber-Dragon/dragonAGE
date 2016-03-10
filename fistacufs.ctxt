@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.params=name_\ Rare\ hp
-comment0.target=gunSlinger(java.lang.String,\ java.lang.String,\ int)
+comment0.target=fistacufs(java.lang.String,\ java.lang.String,\ int)
 comment1.params=
 comment1.target=java.util.ArrayList\ getStats()
 comment2.params=

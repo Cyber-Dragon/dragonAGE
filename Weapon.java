@@ -5,19 +5,17 @@ import java.util.ArrayList;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public abstract class Weapon extends Item  implements WeaponInterface, DefenseCommands ,Bankai{
+public abstract class Weapon extends Item  implements WeaponInterface, DefenseCommands ,Bankai,ability{
 
     private String rarity;
      private String name;
     private ArrayList stats;
     protected int hitPoints;
-    private String ability;
 
-    public Weapon(String rare,int hp, String ab){
+    public Weapon(String rare,int hp){
         ArrayList Stats = new ArrayList();
         rarity = rare;
         hitPoints = hp;
-        ability = ab;
         Stats.add(rare);
         Stats.add(hp);
     }
