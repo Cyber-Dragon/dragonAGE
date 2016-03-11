@@ -5,18 +5,21 @@ import java.util.ArrayList;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public abstract class Armor extends Item  implements DefenseCommands , BackpackInterface{
-     private String rarity;
-    private int hitPoints;
-    private String ability;
+public abstract class Armor extends Item  implements DefenseCommands ,ability ,Rarity{
 
-    public Armor(String rare,String ab,int hp){
-        rarity = rare;
-        hitPoints = hp;
-        ability = ab;
+    public Armor(){
+       
     }
    
     public boolean parry(){
         return true ;
+    }
+    
+     public  boolean blocked(){
+        return true;
+    }
+     
+    boolean storeItem(Item x){
+        return false ;
     }
 }

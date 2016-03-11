@@ -1,20 +1,20 @@
 import java.util.ArrayList;
 import java.lang.Math;
 /**
- * Write a description of class darkDisruptor here.
+ * Write a description of class dualSpears here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class darkDisruptor extends Weapon{
-    private String name = "darkDisruptor" ;
+public class dualSpears extends Weapon{
+    private String name;
     private ArrayList stats;
     private int hp;
     private String rare;
-    public darkDisruptor(String name_, String Rare, int hitp){
-        super(Rare, hitp);
+    public dualSpears(String name_, String Rare, int hp){
+        super(Rare, hp);
         stats = new ArrayList();
-        name = "darkDisruptor";
+        name = name_;
     }
 
     public ArrayList getStats(){
@@ -26,10 +26,6 @@ public class darkDisruptor extends Weapon{
         return name;
     }
 
-    public boolean parry(){
-        return true ;
-    }
-
     public int attack(){
         return hp;
     }
@@ -38,25 +34,27 @@ public class darkDisruptor extends Weapon{
         super.sethp(super.hitPoints+1000);
     }
 
-    public boolean blocked(){
+    public boolean storeItem(Item x){
         return false ;
     }
-
-    public  boolean zimZamBom(){
+    
+   public  boolean zimZamBom(){
         return false;
-     }
+    }
 
     public boolean rage(){
         return false;
-    }
+     }
 
     public boolean soulSteal(){
         return false;
-    }
+     }
 
     public boolean bloodDrain(){
-        return false;
+        return true;
     }
+    
+    
     public boolean common(){
         return false;
     }

@@ -11,9 +11,8 @@ public class Shotgungauntlet extends Weapon{
     private ArrayList stats;
     private int hp;
     private String rare;
-    private String ab; //define hp and other stuff hear
-    public Shotgungauntlet(String name_, String Rare, String abc, int hitp){
-        super(Rare, hitp, abc);
+    public Shotgungauntlet(String name_, String Rare, int hitp){
+        super(Rare, hitp);
         stats = new ArrayList();
         name = name_;
     }
@@ -41,5 +40,36 @@ public class Shotgungauntlet extends Weapon{
 
     public boolean blocked(){
         return false ;
+    }
+    
+   public  boolean zimZamBom(){
+        return false;
+    }
+
+    public boolean rage(){
+        return true;
+     }
+
+    public boolean soulSteal(){
+        return false;
+     }
+
+    public boolean bloodDrain(){
+        return true;
+    }
+    public boolean common(){
+        return false;
+    }
+
+    public boolean rare(){
+        return false;
+    }
+
+    public boolean eternal(){
+        return false;
+    }
+
+    public boolean hero(){
+        return true;
     }
 }

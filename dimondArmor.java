@@ -1,33 +1,57 @@
-
+import java.util.ArrayList;
+import java.lang.Math;
 /**
  * Write a description of class dimondArmor here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class dimondArmor
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class dimondArmor
-     */
-    public dimondArmor()
-    {
-        // initialise instance variables
-        x = 0;
+public class dimondArmor extends Armor{
+    private String name;
+    private ArrayList stats;
+    private String rare;
+    public dimondArmor(String name_, String Rare, int hp){
+        stats = new ArrayList();
+        name = name_;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public ArrayList getStats(){
+
+        return stats;
+    }
+
+    public String getName(){
+        return name;
+    }
+    
+    public  boolean zimZamBom(){
+        return false;
+     }
+
+    public boolean rage(){
+        return false;
+     }
+
+    public boolean soulSteal(){
+        return false;
+     }
+
+    public boolean bloodDrain(){
+        return true;
+    }
+    public boolean common(){
+        return false;
+    }
+
+    public boolean rare(){
+        return false;
+    }
+
+    public boolean eternal(){
+        return false;
+    }
+
+    public boolean hero(){
+        return true;
     }
 }

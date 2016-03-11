@@ -1,33 +1,58 @@
-
+import java.util.ArrayList;
+import java.lang.Math;
 /**
  * Write a description of class woodArmor here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class woodArmor
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class woodArmor
-     */
-    public woodArmor()
-    {
-        // initialise instance variables
-        x = 0;
+public class woodArmor extends Armor {
+    private String name;
+    private ArrayList stats;
+    private int hp;
+    private String rare;
+    public woodArmor(String name_, String Rare, int hp){
+        stats = new ArrayList();
+        name = name_;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public ArrayList getStats(){
+
+        return stats;
+    }
+
+    public String getName(){
+        return name;
+    }
+    
+    public  boolean zimZamBom(){
+        return false;
+     }
+
+    public boolean rage(){
+        return false;
+     }
+
+    public boolean soulSteal(){
+        return false;
+     }
+
+    public boolean bloodDrain(){
+        return false;
+    }
+    public boolean common(){
+        return true;
+    }
+
+    public boolean rare(){
+        return false;
+    }
+
+    public boolean eternal(){
+        return false;
+    }
+
+    public boolean hero(){
+        return false;
     }
 }

@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Boss()
-comment1.params=numOfStudent
+comment1.params=numOfPlayers
 comment1.target=Boss(int)
 comment2.params=
-comment2.target=void\ printStudentsList()
+comment2.target=void\ printPlayersList()
 numComments=3

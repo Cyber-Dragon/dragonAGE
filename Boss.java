@@ -9,21 +9,21 @@ public class Boss extends Player{
     ArrayList <Player> listOfPlayers;
     public Boss(){
         listOfPlayers = new ArrayList<Player>();
-        Player s1 = new Player("Luis"," Higuera","qwe","wqe","weq",00001);
+        Player s1 = new Player("Luis"," Higuera","fsdf","wqe","weq",00001);
         listOfPlayers.add(s1);
     }
 
-    public Boss (int numOfStudent){
+    public Boss (int numOfPlayers){
         listOfPlayers = new ArrayList<Player>();
-        for(int i = 1; i <= numOfStudent; i++){
+        for(int i = 1; i <= numOfPlayers; i++){
             listOfPlayers.add(new Player("BURITO","TACO","","","",111101 + i));
         }
     }
 
-    public void printStudentsList(){
+    public void printPlayersList(){
         for (Player s : listOfPlayers){
            System.out.println("Name: "+ s.firstName+ s.lastName );
-            System.out.println("iD #" + s.iD);
+            System.out.println("Lv #" + s.lV);
             
         }
     }

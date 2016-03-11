@@ -11,6 +11,7 @@ dependency3.type=UsesDependency
 dependency4.from=gunSlinger
 dependency4.to=Item
 dependency4.type=UsesDependency
+<<<<<<< HEAD
 dependency5.from=celestialArmor
 dependency5.to=Item
 dependency5.type=UsesDependency
@@ -21,6 +22,24 @@ package.editor.width=1152
 package.editor.x=0
 package.editor.y=23
 package.numDependencies=5
+=======
+dependency5.from=fistacufs
+dependency5.to=Item
+dependency5.type=UsesDependency
+dependency6.from=dualSpears
+dependency6.to=Item
+dependency6.type=UsesDependency
+dependency7.from=fullDragonArmor
+dependency7.to=Item
+dependency7.type=UsesDependency
+objectbench.height=100
+objectbench.width=1314
+package.editor.height=547
+package.editor.width=1244
+package.editor.x=-8
+package.editor.y=-8
+package.numDependencies=7
+>>>>>>> origin/master
 package.numTargets=23
 package.showExtends=true
 package.showUses=true
@@ -29,6 +48,13 @@ readme.editor.height=700
 readme.editor.width=900
 readme.editor.x=130
 readme.editor.y=133
+<<<<<<< HEAD
+=======
+target1.editor.height=744
+target1.editor.width=1378
+target1.editor.x=-8
+target1.editor.y=-8
+>>>>>>> origin/master
 target1.height=50
 target1.name=woodArmor
 target1.showInterface=false
@@ -42,6 +68,7 @@ target10.name=Bankai
 target10.showInterface=false
 target10.type=InterfaceTarget
 target10.typeParameters=
+<<<<<<< HEAD
 target10.width=80
 target10.x=270
 target10.y=0
@@ -49,12 +76,22 @@ target11.editor.height=700
 target11.editor.width=900
 target11.editor.x=354
 target11.editor.y=37
+=======
+target10.width=60
+target10.x=520
+target10.y=210
+target11.editor.height=744
+target11.editor.width=1370
+target11.editor.x=-8
+target11.editor.y=-8
+>>>>>>> origin/master
 target11.height=50
 target11.name=DefenseCommands
 target11.naviview.expanded=false
 target11.showInterface=false
 target11.type=InterfaceTarget
 target11.typeParameters=
+<<<<<<< HEAD
 target11.width=140
 target11.x=480
 target11.y=430
@@ -64,14 +101,32 @@ target12.editor.x=0
 target12.editor.y=23
 target12.height=50
 target12.name=Weapon
+=======
+target11.width=80
+target11.x=510
+target11.y=80
+target12.editor.height=700
+target12.editor.width=900
+target12.editor.x=395
+target12.editor.y=2
+target12.height=50
+target12.name=BackpackInterface
+>>>>>>> origin/master
 target12.naviview.expanded=false
 target12.showInterface=false
 target12.type=AbstractTarget
 target12.typeParameters=
+<<<<<<< HEAD
 target12.width=80
 target12.x=240
 target12.y=160
 target13.editor.height=700
+=======
+target12.width=120
+target12.x=700
+target12.y=180
+target13.editor.height=697
+>>>>>>> origin/master
 target13.editor.width=900
 target13.editor.x=448
 target13.editor.y=11
@@ -81,6 +136,7 @@ target13.naviview.expanded=false
 target13.showInterface=false
 target13.type=ClassTarget
 target13.typeParameters=
+<<<<<<< HEAD
 target13.width=60
 target13.x=540
 target13.y=130
@@ -103,10 +159,35 @@ target15.editor.x=380
 target15.editor.y=23
 target15.height=60
 target15.name=BackpackInterface
+=======
+target13.width=80
+target13.x=900
+target13.y=10
+target14.editor.height=700
+target14.editor.width=900
+target14.editor.x=286
+target14.editor.y=21
+target14.height=50
+target14.name=fullDragonArmor
+target14.naviview.expanded=false
+target14.showInterface=false
+target14.type=ClassTarget
+target14.typeParameters=
+target14.width=120
+target14.x=900
+target14.y=300
+target15.editor.height=735
+target15.editor.width=697
+target15.editor.x=-7
+target15.editor.y=0
+target15.height=50
+target15.name=WeaponInterface
+>>>>>>> origin/master
 target15.naviview.expanded=false
 target15.showInterface=false
 target15.type=InterfaceTarget
 target15.typeParameters=
+<<<<<<< HEAD
 target15.width=60
 target15.x=600
 target15.y=240
@@ -116,10 +197,22 @@ target16.editor.x=265
 target16.editor.y=44
 target16.height=50
 target16.name=Boss
+=======
+target15.width=120
+target15.x=150
+target15.y=0
+target16.editor.height=700
+target16.editor.width=900
+target16.editor.x=464
+target16.editor.y=120
+target16.height=30
+target16.name=dualSpears
+>>>>>>> origin/master
 target16.naviview.expanded=false
 target16.showInterface=false
 target16.type=ClassTarget
 target16.typeParameters=
+<<<<<<< HEAD
 target16.width=80
 target16.x=940
 target16.y=40
@@ -150,15 +243,58 @@ target19.editor.x=0
 target19.editor.y=23
 target19.height=50
 target19.name=Armor
+=======
+target16.width=90
+target16.x=60
+target16.y=180
+target17.editor.height=744
+target17.editor.width=1378
+target17.editor.x=-8
+target17.editor.y=-8
+target17.height=50
+target17.name=Armor
+target17.naviview.expanded=false
+target17.showInterface=false
+target17.type=AbstractTarget
+target17.typeParameters=
+target17.width=80
+target17.x=690
+target17.y=300
+target18.editor.height=744
+target18.editor.width=1370
+target18.editor.x=-8
+target18.editor.y=0
+target18.height=30
+target18.name=gunSlinger
+target18.naviview.expanded=false
+target18.showInterface=false
+target18.type=ClassTarget
+target18.typeParameters=
+target18.width=90
+target18.x=60
+target18.y=240
+target19.editor.height=700
+target19.editor.width=900
+target19.editor.x=285
+target19.editor.y=0
+target19.height=30
+target19.name=fistacufs
+>>>>>>> origin/master
 target19.naviview.expanded=false
 target19.showInterface=false
 target19.type=AbstractTarget
 target19.typeParameters=
+<<<<<<< HEAD
 target19.width=80
 target19.x=780
 target19.y=140
+=======
+target19.width=90
+target19.x=60
+target19.y=210
+>>>>>>> origin/master
 target2.editor.height=744
-target2.editor.width=1382
+target2.editor.width=1370
 target2.editor.x=-8
 target2.editor.y=-8
 target2.height=50
@@ -167,6 +303,7 @@ target2.naviview.expanded=false
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
+<<<<<<< HEAD
 target2.width=80
 target2.x=750
 target2.y=10
@@ -176,12 +313,24 @@ target20.editor.x=0
 target20.editor.y=23
 target20.height=30
 target20.name=gunSlinger
+=======
+target2.width=90
+target2.x=60
+target2.y=390
+target20.editor.height=700
+target20.editor.width=900
+target20.editor.x=108
+target20.editor.y=78
+target20.height=30
+target20.name=Trident
+>>>>>>> origin/master
 target20.naviview.expanded=false
 target20.showInterface=false
 target20.type=ClassTarget
 target20.typeParameters=
 target20.width=90
 target20.x=60
+<<<<<<< HEAD
 target20.y=240
 target21.editor.height=700
 target21.editor.width=900
@@ -196,6 +345,22 @@ target21.typeParameters=
 target21.width=90
 target21.x=60
 target21.y=360
+=======
+target20.y=360
+target21.editor.height=700
+target21.editor.width=900
+target21.editor.x=420
+target21.editor.y=46
+target21.height=50
+target21.name=ability
+target21.naviview.expanded=false
+target21.showInterface=false
+target21.type=InterfaceTarget
+target21.typeParameters=
+target21.width=80
+target21.x=510
+target21.y=260
+>>>>>>> origin/master
 target22.editor.height=700
 target22.editor.width=900
 target22.editor.x=32
@@ -209,10 +374,17 @@ target22.typeParameters=
 target22.width=90
 target22.x=60
 target22.y=330
+<<<<<<< HEAD
 target23.editor.height=712
 target23.editor.width=1280
 target23.editor.x=0
 target23.editor.y=23
+=======
+target23.editor.height=744
+target23.editor.width=1370
+target23.editor.x=-8
+target23.editor.y=-8
+>>>>>>> origin/master
 target23.height=30
 target23.name=keyBlade
 target23.naviview.expanded=false
@@ -222,10 +394,17 @@ target23.typeParameters=
 target23.width=90
 target23.x=60
 target23.y=420
+<<<<<<< HEAD
 target3.editor.height=744
 target3.editor.width=1382
 target3.editor.x=-8
 target3.editor.y=-8
+=======
+target3.editor.height=700
+target3.editor.width=900
+target3.editor.x=32
+target3.editor.y=12
+>>>>>>> origin/master
 target3.height=30
 target3.name=infintrySword
 target3.naviview.expanded=false
@@ -245,9 +424,15 @@ target4.naviview.expanded=false
 target4.showInterface=false
 target4.type=ClassTarget
 target4.typeParameters=
+<<<<<<< HEAD
 target4.width=90
 target4.x=60
 target4.y=300
+=======
+target4.width=100
+target4.x=510
+target4.y=10
+>>>>>>> origin/master
 target5.editor.height=700
 target5.editor.width=900
 target5.editor.x=263
@@ -272,6 +457,7 @@ target6.showInterface=false
 target6.type=ClassTarget
 target6.typeParameters=
 target6.width=110
+<<<<<<< HEAD
 target6.x=960
 target6.y=360
 target7.editor.height=700
@@ -281,6 +467,12 @@ target7.editor.y=23
 target7.height=30
 target7.name=darkDisruptor
 target7.naviview.expanded=false
+=======
+target6.x=40
+target6.y=450
+target7.height=50
+target7.name=Bankai
+>>>>>>> origin/master
 target7.showInterface=false
 target7.type=ClassTarget
 target7.typeParameters=
@@ -297,6 +489,7 @@ target8.naviview.expanded=false
 target8.showInterface=false
 target8.type=ClassTarget
 target8.typeParameters=
+<<<<<<< HEAD
 target8.width=110
 target8.x=60
 target8.y=450
@@ -304,6 +497,15 @@ target9.editor.height=700
 target9.editor.width=900
 target9.editor.x=380
 target9.editor.y=23
+=======
+target8.width=140
+target8.x=480
+target8.y=310
+target9.editor.height=744
+target9.editor.width=1370
+target9.editor.x=-8
+target9.editor.y=-8
+>>>>>>> origin/master
 target9.height=50
 target9.name=solarGun
 target9.naviview.expanded=true
@@ -311,5 +513,10 @@ target9.showInterface=false
 target9.type=ClassTarget
 target9.typeParameters=
 target9.width=80
+<<<<<<< HEAD
 target9.x=60
 target9.y=150
+=======
+target9.x=270
+target9.y=250
+>>>>>>> origin/master

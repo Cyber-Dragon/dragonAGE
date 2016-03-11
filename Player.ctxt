@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Player()
-comment1.params=firstName_\ lastName_\ ability_\ wepon_\ armor_\ iD_
+comment1.params=firstName_\ lastName_\ ability_\ wepon_\ armor_\ lV_
 comment1.target=Player(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
 comment2.params=
-comment2.target=int\ getiD()
+comment2.target=int\ getlV()
 comment3.params=
 comment3.target=java.lang.String\ firstName_()
 comment4.params=

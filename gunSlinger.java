@@ -6,16 +6,15 @@ import java.lang.Math;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class gunSlinger extends Weapon{
+public class gunSlinger extends Weapon {
     private String name;
     private ArrayList stats;
     private int hp;
-    private String rare;
-    private String ab;
-    public gunSlinger(String name, String Rare, String ab, int hitp){
-        super(Rare, hitp, ab);
+    private String rare; 
+    public gunSlinger(String name_, String Rare, int hitp){
+        super(Rare, hitp);
         stats = new ArrayList();
-        name = name;
+        name = name_;
     }
 
     public ArrayList getStats(){
@@ -28,7 +27,8 @@ public class gunSlinger extends Weapon{
     }
 
     public boolean parry(){
-        return true ;
+        //boolean block = (boolean) (Math.random() * 1 + 10.0);
+        return true;
     }
 
     public int attack(){
@@ -42,8 +42,37 @@ public class gunSlinger extends Weapon{
     public boolean blocked(){
         return false ;
     }
+    
+   public  boolean zimZamBom(){
+        return false;
+    }
 
-    boolean storeItem(Item x){
-        return false ;
+    public boolean rage(){
+        return false;
+     }
+
+    public boolean soulSteal(){
+        return false;
+     }
+
+    public boolean bloodDrain(){
+        return false;
+    }
+    
+    public boolean common(){
+        return false;
+    }
+
+    public boolean rare(){
+        return true;
+    }
+
+    public boolean eternal(){
+        return false;
+    }
+
+    public boolean hero(){
+        return false;
     }
 }
+

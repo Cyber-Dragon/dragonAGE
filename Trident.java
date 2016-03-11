@@ -11,9 +11,8 @@ public class Trident extends Weapon{
     private ArrayList stats;
     private int hp;
     private String rare;
-    private String ab; //define hp and other stuff hear
-    public Trident(String name_, String Rare, String abc, int hitp){
-        super(Rare, hitp, abc);
+    public Trident(String name_, String Rare, int hitp){
+        super(Rare, hitp);
         stats = new ArrayList();
         name = name_;
     }
@@ -41,5 +40,37 @@ public class Trident extends Weapon{
 
     public boolean blocked(){
         return false ;
+    }
+     
+   public  boolean zimZamBom(){
+        return false;
+    }
+
+    public boolean rage(){
+        return false;
+     }
+
+    public boolean soulSteal(){
+        return true;
+     }
+
+    public boolean bloodDrain(){
+        return false;
+    }
+     
+    public boolean common(){
+        return false;
+    }
+
+    public boolean rare(){
+        return false;
+    }
+
+    public boolean eternal(){
+        return false;
+    }
+
+    public boolean hero(){
+        return true;
     }
 }

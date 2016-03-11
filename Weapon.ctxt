@@ -1,18 +1,12 @@
 #BlueJ class context
-comment0.params=rare\ hp\ ab
-comment0.target=Weapon(java.lang.String,\ int,\ java.lang.String)
+comment0.params=rare\ hp
+comment0.target=Weapon(java.lang.String,\ int)
 comment1.params=
 comment1.target=void\ hit()
-comment2.params=
-comment2.target=void\ moveBackward()
-comment3.params=x
-comment3.target=void\ sethp(int)
+comment2.params=x
+comment2.target=void\ sethp(int)
+comment3.params=
+comment3.target=boolean\ parry()
 comment4.params=
-comment4.target=void\ turnLeft()
-comment5.params=
-comment5.target=void\ turnRight()
-comment6.params=
-comment6.target=void\ brake()
-comment7.params=
-comment7.target=void\ outoSpeed()
-numComments=8
+comment4.target=boolean\ blocked()
+numComments=5

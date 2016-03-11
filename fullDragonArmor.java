@@ -1,20 +1,19 @@
 import java.util.ArrayList;
 import java.lang.Math;
 /**
- * Write a description of class darkDisruptor here.
+ * Write a description of class fullDragonArmor here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class darkDisruptor extends Weapon{
-    private String name = "darkDisruptor" ;
+public class fullDragonArmor extends Armor {
+    private String name;
     private ArrayList stats;
     private int hp;
     private String rare;
-    public darkDisruptor(String name_, String Rare, int hitp){
-        super(Rare, hitp);
+    public fullDragonArmor(String name_, String Rare, int hp){
         stats = new ArrayList();
-        name = "darkDisruptor";
+        name = name_;
     }
 
     public ArrayList getStats(){
@@ -25,37 +24,21 @@ public class darkDisruptor extends Weapon{
     public String getName(){
         return name;
     }
-
-    public boolean parry(){
-        return true ;
-    }
-
-    public int attack(){
-        return hp;
-    }
-
-    public void banki(){
-        super.sethp(super.hitPoints+1000);
-    }
-
-    public boolean blocked(){
-        return false ;
-    }
-
+    
     public  boolean zimZamBom(){
         return false;
      }
 
     public boolean rage(){
         return false;
-    }
+     }
 
     public boolean soulSteal(){
         return false;
-    }
+     }
 
     public boolean bloodDrain(){
-        return false;
+        return true;
     }
     public boolean common(){
         return false;
@@ -66,10 +49,10 @@ public class darkDisruptor extends Weapon{
     }
 
     public boolean eternal(){
-        return false;
+        return true;
     }
 
     public boolean hero(){
-        return true;
+        return false;
     }
 }

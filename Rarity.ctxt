@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ common()
+comment0.text=\n\ enemy\ is\ cut\ deeply\ and\ bleeds\ out\ faster\ with\ every\ hit\ \ \n\ @returns\ true\ if\ ability\ is\ active\ \n
+comment1.params=
+comment1.target=boolean\ rare()
+comment1.text=\n\ steals\ life\ frome\ anemy\ and\ give\ it\ to\ you\n\ @returns\ true\ if\ ability\ is\ active\ \n
+comment2.params=
+comment2.target=boolean\ hero()
+comment2.text=\n\ gains\ attck\ everytime\ their\ helth\ gets\ low\n\ retuens\ true\ if\ ability\ is\ avtive\ \n
+comment3.params=
+comment3.target=boolean\ eternal()
+comment3.text=\n\ gains\ every\ ability\ \n\ retuens\ true\ if\ ability\ is\ avtive\ \n
+numComments=4
